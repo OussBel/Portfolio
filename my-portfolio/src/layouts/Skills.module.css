@@ -1,0 +1,64 @@
+.skills {
+  width: 80%;
+  margin: auto;
+}
+
+.bigContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  flex: 1 0 33.33%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.language {
+  margin-right: 3rem;
+  flex-basis: 50%;
+}
+
+.box {
+  flex-basis: 100%;
+}
+
+.background,
+.bg {
+  display: inline-block;
+  width: 19%;
+  height: 4px;
+  background-color: var(--color-blue-dark);
+  margin-right: 3px;
+  border-radius: 3px;
+}
+
+.bg:last-child {
+  background-color: var(--color-grey-light-2);
+}
+
+@media (max-width: 68.75em) {
+  /* 1100px = 68.75em */
+  .skills {
+    width: 90%;
+  }
+}
+
+@media (max-width: 48.13em) {
+  /* 770px = 48.13em */
+
+  .container {
+    flex: 1 0 100%;
+  }
+
+  .box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .background,
+  .bg {
+    width: 24%;
+  }
+}

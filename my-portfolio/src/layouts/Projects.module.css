@@ -1,0 +1,28 @@
+.projects {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 10rem;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 68.75em) {
+  /* 1100px = 68.75em */
+
+  .projects {
+    width: 90%;
+  }
+}
+
+@media (max-width: 48.13em) {
+  .cardContainer {
+    flex-direction: column;
+  }
+
+  .projects {
+    max-width: 50rem;
+  }
+}

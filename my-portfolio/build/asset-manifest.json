@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b15c524b.css",
+    "main.js": "/static/js/main.0ddfbced.js",
+    "static/media/DreamPlace-Hotel.png": "/static/media/DreamPlace-Hotel.9e4978d0038bcb50cf68.png",
+    "static/media/Restaurant.png": "/static/media/Restaurant.b9a12eca4c6dd3387fbf.png",
+    "index.html": "/index.html",
+    "main.b15c524b.css.map": "/static/css/main.b15c524b.css.map",
+    "main.0ddfbced.js.map": "/static/js/main.0ddfbced.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b15c524b.css",
+    "static/js/main.0ddfbced.js"
+  ]
+}

@@ -1,0 +1,36 @@
+.about {
+  margin: auto;
+  width: 80%;
+  color: var(--color-blue-dark);
+}
+
+.education {
+  text-align: center;
+}
+
+.education:not(:last-child) {
+  margin-bottom: 7rem;
+}
+
+.course {
+  font-weight: 400;
+}
+
+.year {
+  color: var(--color-grey-light-2);
+}
+
+@media (max-width: 68.75em) {
+  /* 1100px = 68.75em */
+
+  .about {
+    width: 90%;
+  }
+}
+
+@media (max-width: 48.13em) {
+  /* 770px = 48.13em */
+  .education:not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+}

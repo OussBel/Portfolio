@@ -1,0 +1,115 @@
+.devicon-html5-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-sass-original,
+.devicon-bootstrap-plain-wordmark,
+.devicon-javascript-plain,
+.devicon-react-original-wordmark,
+.devicon-redux-original,
+.devicon-jest-plain,
+.devicon-tailwindcss-original-wordmark,
+.devicon-nextjs-original-wordmark,
+.devicon-nodejs-plain-wordmark,
+.devicon-express-original-wordmark {
+  margin-right: 3.5rem;
+  display: inline-block;
+  animation: slide 3.7s ease-in-out infinite alternate;
+}
+
+.devicon-html5-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-sass-original,
+.devicon-bootstrap-plain-wordmark,
+.devicon-javascript-plain,
+.devicon-react-original-wordmark,
+.devicon-redux-original,
+.devicon-jest-plain {
+  font-size: 4rem;
+}
+
+.devicon-tailwindcss-original-wordmark,
+.devicon-nextjs-original-wordmark,
+.devicon-nodejs-plain-wordmark,
+.devicon-express-original-wordmark {
+  font-size: 5.5rem;
+}
+
+.title {
+  text-align: center;
+  margin: 10rem 0;
+  font-weight: 4.4rem;
+  color: var(--color-brown-light-2);
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  font-weight: 400;
+}
+
+.skill {
+  animation: none;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-55rem);
+  }
+}
+
+@media (max-width: 68.75em) {
+  /* 1100px = 68.75em */
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-58rem);
+    }
+  }
+}
+
+@media (max-width: 56.25em) {
+  /* 900px = 56.25em */
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-60rem);
+    }
+  }
+}
+
+@media (max-width: 48.13em) {
+  /* 770px = 48.13em */
+  .title {
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+  }
+
+  .listBackground,
+  .listBackground-visible {
+    background-image: radial-gradient(
+      var(--color-blue-light),
+      var(--color-blue-dark)
+    );
+    position: fixed;
+    top: -6rem;
+    right: 0;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    visibility: visible;
+    transition: all 0.2s ease-in-out;
+    z-index: 10;
+  }
+
+  .listBackground-visible {
+    visibility: visible;
+    transform: scale(70);
+  }
+}

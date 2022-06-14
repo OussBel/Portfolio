@@ -1,0 +1,20 @@
+.contact {
+  width: 80%;
+  margin: auto;
+  color: var(--color-blue-dark);
+}
+
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 68.75em) {
+  /* 1100px = 68.75em */
+
+  .contact {
+    width: 90%;
+  }
+}
